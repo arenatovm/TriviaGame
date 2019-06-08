@@ -1,0 +1,26 @@
+body{
+    background-image: url(../images/back.png);
+}
+#wrapper{
+    width: 900px;
+    height: 1000px;
+    margin: 15% 10%;
+    padding-top: 5%;
+    background-color: aqua;
+    text-align: center;
+}
+h1{
+    color: red;
+    font-size: 5em;
+}
+#sub-wrapper{
+    width: 600px;
+    height: 600px;
+    margin-left: 15%;
+    background-color: lightyellow;
+    text-align: center;
+}
+#submit{
+    position: absolute;
+    bottom: 0;
+}
