@@ -2,15 +2,55 @@
 var card = $("#quiz-area");
 var countStartNumber = 30;
 var question = [{
-    question: "a string",
-    answers: ["an", "array", "with", "4 strings"],
-    correctAnswer: "a string"
-    image: link to image
+    question: "How many earths can fits in the sun?",
+    answers: ["600 earths", "950 earths", "1200 earths", "1.3M earths"],
+    correctAnswer: "1.3M earths"
+    // image: link to image
 }, {
-    question: "a string",
-    answers: ["an", "array", "with", "4 strings"],
-    correctAnswer: "a string"
-    image: link to image
+    question: "What is the capital city of Belize?",
+    answers: ["Andorra", "Managua", "Belmopan", "Montgomey"],
+    correctAnswer: "Belmopan"
+    // image: link to image
+},{
+    question: "What is the highest mountain in North America?",
+    answers: ["Acconcagua", "Huascaran", "Denali", "Pikes Peak"],
+    correctAnswer: "Denali"
+// image: link to image
+}, {
+    question: "Who is the current president of India?",
+    answers: ["Modi", "Putin", "Merkel", "Yunus"],
+    correctAnswer: "Modi"
+// image: link to image
+}, {
+    question: "Where is original the potato?",
+    answers: ["Mexico", "France", "South Africa", "Peru"],
+    correctAnswer: "Peru"
+// image: link to image
+}, {
+    question: "What country's surface is bigger than Pluto?",
+    answers: ["China", "United States", "Russia", "Australia"],
+    correctAnswer: "Russia"
+// image: link to image
+}, {
+    question: "Who invented gravity?",
+    answers: ["Isaac Newton", "Albert Eistein", "Maxell", "No way Jose, it was there already"],
+    correctAnswer: "No way Jose, it was there already"
+// image: link to image
+}, {
+    question: "Who was the first woman on space?",
+    answers: ["Frida Kalho", "Valentina Tereshkova", "Sophia Loren", "Laika Putin"],
+    correctAnswer: "Valentina Tereshkova"
+// image: link to image
+}, {
+    question: "Who was the only person winning two Nobel Prizes in two different categories?",
+    answers: ["Valentina Tereshkova", "Ayn Rand", "Marie Curie", "Richard Feynman"],
+    correctAnswer: "Marie Curie"
+// image: link to image
+}, {
+    question: "What country is inside of South Africa?",
+    answers: ["Uganda", "Leshoto", "Niger", "Somalia"],
+    correctAnswer: "Leshoto"
+// image: link to image
 }
 ]
 // a variable to hold the set interval

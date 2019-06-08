@@ -20,7 +20,19 @@ h1{
     background-color: lightyellow;
     text-align: center;
 }
-#submit{
+#start {
     position: absolute;
+    height: 40px;
+    width: 70px;
     bottom: 0;
+    background: #0080FF;
+    color: #ffffff;
+    padding: 6px;
+    text-align: center;
+    font-size: 150%;
+    border-radius: 10px;
+}
+#start:hover {
+    cursor: pointer;
+    background: navy;
 }
